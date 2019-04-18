@@ -4,7 +4,7 @@ Sample of VideoCast-Swift and HaishinKit.
 ## Preparation
 
 ### Overview
-![Overview](Resources/overview.png)
+<img src='Resources/overview.png' width=400>
 
 ### Steps
 
@@ -38,6 +38,8 @@ struct Config {
 #### 5 Play via VLC
 
 <img src='Resources/play.png' width=300>
+
+:warning: Of course, your iOS device and macos local server must be in same network.
 
 ## Setup
 ```
