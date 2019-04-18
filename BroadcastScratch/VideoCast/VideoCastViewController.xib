@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <viewController id="rFW-ma-iaH" customClass="VideoCastViewController" customModule="BroadcastScratch" customModuleProvider="target">
+            <view key="view" contentMode="scaleToFill" id="eKR-E2-TDm">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r24-Te-pn2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="103" translatesAutoresizingMaskIntoConstraints="NO" id="Reu-42-Es9">
+                        <rect key="frame" x="0.0" y="637" width="375" height="30"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VO2-m4-nmb">
+                                <rect key="frame" x="0.0" y="0.0" width="136" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l8E-mP-DdU">
+                                <rect key="frame" x="239" y="0.0" width="136" height="30"/>
+                                <state key="normal" title="Filter"/>
+                            </button>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="Reu-42-Es9" firstAttribute="leading" secondItem="QYc-Jy-tAa" secondAttribute="leading" id="8nS-Db-f7D"/>
+                    <constraint firstAttribute="trailing" secondItem="r24-Te-pn2" secondAttribute="trailing" id="EfQ-w3-ueA"/>
+                    <constraint firstItem="QYc-Jy-tAa" firstAttribute="bottom" secondItem="Reu-42-Es9" secondAttribute="bottom" id="Ppr-K2-WnD"/>
+                    <constraint firstItem="QYc-Jy-tAa" firstAttribute="trailing" secondItem="Reu-42-Es9" secondAttribute="trailing" id="UEg-ED-uWj"/>
+                    <constraint firstAttribute="bottom" secondItem="r24-Te-pn2" secondAttribute="bottom" id="haf-AZ-bhJ"/>
+                    <constraint firstItem="r24-Te-pn2" firstAttribute="top" secondItem="eKR-E2-TDm" secondAttribute="top" id="jEf-Gq-xoY"/>
+                    <constraint firstItem="r24-Te-pn2" firstAttribute="leading" secondItem="eKR-E2-TDm" secondAttribute="leading" id="q3C-15-LUL"/>
+                </constraints>
+                <viewLayoutGuide key="safeArea" id="QYc-Jy-tAa"/>
+            </view>
+            <connections>
+                <outlet property="applyFilterButton" destination="l8E-mP-DdU" id="9bc-IF-KFM"/>
+                <outlet property="connectButton" destination="VO2-m4-nmb" id="40e-VB-L5i"/>
+                <outlet property="preview" destination="r24-Te-pn2" id="Bnd-jI-Ve4"/>
+            </connections>
+            <point key="canvasLocation" x="-199.19999999999999" y="115.59220389805098"/>
+        </viewController>
+    </objects>
+</document>

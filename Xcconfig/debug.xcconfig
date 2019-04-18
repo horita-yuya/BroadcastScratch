@@ -1,0 +1,4 @@
+#include "Pods/Target Support Files/Pods-BroadcastScratch/Pods-BroadcastScratch.debug.xcconfig"
+
+MTL_COMPILER_FLAGS = -fcikernel
+MTLLINKER_FLAGS = -cikernel

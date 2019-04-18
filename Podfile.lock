@@ -1,0 +1,33 @@
+PODS:
+  - HaishinKit (0.11.0):
+    - Logboard (~> 2.1.0)
+  - Logboard (2.1.0)
+  - VideoCast (0.1.0)
+
+DEPENDENCIES:
+  - HaishinKit (= 0.11.0)
+  - VideoCast (from `https://github.com/cats-oss/VideoCast-Swift.git`, branch `master`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - HaishinKit
+    - Logboard
+
+EXTERNAL SOURCES:
+  VideoCast:
+    :branch: master
+    :git: https://github.com/cats-oss/VideoCast-Swift.git
+
+CHECKOUT OPTIONS:
+  VideoCast:
+    :commit: 6fe708fffe9cbbb2c2fc5ac50c81f384eb47d4d8
+    :git: https://github.com/cats-oss/VideoCast-Swift.git
+
+SPEC CHECKSUMS:
+  HaishinKit: 29645007b49fe6a6ad8d89aa48d0848177bfae69
+  Logboard: ff780bba1dc55be6f9fc41b4e4e36115ec92f3e0
+  VideoCast: a90f506f74d7149ae9ef595601d0a987186f36e1
+
+PODFILE CHECKSUM: fae0f0d52c7bf720da6ec263f03efbb715bb16d7
+
+COCOAPODS: 1.6.1
